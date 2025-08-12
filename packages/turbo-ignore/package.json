@@ -36,7 +36,7 @@
     "@turbo/types": "workspace:*",
     "@turbo/utils": "workspace:*",
     "@types/jest": "^27.4.0",
-    "@types/node": "^18.17.2",
+    "@types/node": "^24.1.0",
     "commander": "^11.0.0",
     "jest": "^27.4.3",
     "ts-jest": "^27.1.1",
