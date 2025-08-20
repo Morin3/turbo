@@ -203,7 +203,7 @@ chromiumoxide = { version = "0.5.0", features = [
 ], default-features = false }
 # For matching on errors from chromiumoxide. Keep in
 # sync with chromiumoxide's tungstenite requirement.
-tungstenite = "0.18.0"
+tungstenite = "0.20.1"
 
 anyhow = "1.0.69"
 assert_cmd = "2.0.8"
@@ -230,7 +230,7 @@ concurrent-queue = "2.5.0"
 console = "0.15.5"
 console-subscriber = "0.1.8"
 criterion = "0.4.0"
-crossbeam-channel = "0.5.8"
+crossbeam-channel = "0.5.15"
 dashmap = "5.4.0"
 dialoguer = "0.10.3"
 dunce = "1.0.3"
@@ -292,7 +292,7 @@ tempfile = "3.3.0"
 test-case = "3.0.0"
 thiserror = "1.0.48"
 tiny-gradient = "0.1.0"
-tokio = "1.25.0"
+tokio = "1.38.2"
 tokio-util = { version = "0.7.7", features = ["io"] }
 tracing = "0.1.37"
 tracing-appender = "0.2.2"
