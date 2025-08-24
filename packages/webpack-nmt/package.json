@@ -18,8 +18,8 @@
   },
   "devDependencies": {
     "@turbo/eslint-config": "workspace:*",
-    "@types/webpack": "^5.28.0",
-    "webpack": "^5.94.0"
+    "@types/webpack": "^5.28.5",
+    "webpack": "^5.101.3"
   },
   "scripts": {
     "lint": "eslint src/",
