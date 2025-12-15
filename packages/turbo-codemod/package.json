@@ -28,7 +28,7 @@
     "find-up": "4.1.0",
     "fs-extra": "^10.0.0",
     "gradient-string": "^2.0.0",
-    "inquirer": "^8.2.4",
+    "inquirer": "^8.2.7",
     "inquirer-file-tree-selection-prompt": "^1.0.19",
     "json5": "^2.2.3",
     "is-git-clean": "^1.1.0",
@@ -58,7 +58,7 @@
     "plop": "^3.1.1",
     "semver": "^7.3.5",
     "ts-jest": "^27.1.1",
-    "tsup": "^8.5.0",
+    "tsup": "^8.5.1",
     "typescript": "5.3.3"
   },
   "files": [
