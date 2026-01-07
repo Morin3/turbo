@@ -108,7 +108,7 @@ tonic = { version = "0.11.0", features = ["transport"] }
 tower = "0.4.13"
 tracing-appender = "0.2.2"
 tracing-chrome = "0.7.1"
-tracing-subscriber = { version = "0.3.17", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
 tracing.workspace = true
 turbo-updater = { workspace = true }
 turbopath = { workspace = true }
