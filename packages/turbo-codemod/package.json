@@ -24,7 +24,7 @@
   "dependencies": {
     "axios": "0.30.0",
     "commander": "^9.5.0",
-    "diff": "^5.1.0",
+    "diff": "^5.2.2",
     "find-up": "4.1.0",
     "fs-extra": "^10.0.0",
     "gradient-string": "^2.0.0",
