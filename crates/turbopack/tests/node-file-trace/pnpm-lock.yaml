@@ -150,7 +150,7 @@ devDependencies:
     version: 7.24.0
   firebase-admin:
     specifier: ^9.7.0
-    version: 9.12.0(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3)
+    version: 9.12.0(@firebase/app-compat@0.5.9)(@firebase/app-types@0.9.3)
   fluent-ffmpeg:
     specifier: ^2.1.2
     version: 2.1.2
@@ -1189,14 +1189,14 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@firebase/app-compat@0.5.1:
-    resolution: {integrity: sha512-BEy1L6Ufd85ZSP79HDIv0//T9p7d5Bepwy+2mKYkgdXBGKTbFm2e2KxyF1nq4zSQ6RRBxWi0IY0zFVmoBTZlUA==}
+  /@firebase/app-compat@0.5.9:
+    resolution: {integrity: sha512-e5LzqjO69/N2z7XcJeuMzIp4wWnW696dQeaHAUpQvGk89gIWHAIvG6W+mA3UotGW6jBoqdppEJ9DnuwbcBByug==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/app': 0.14.1
-      '@firebase/component': 0.7.0
+      '@firebase/app': 0.14.9
+      '@firebase/component': 0.7.1
       '@firebase/logger': 0.5.0
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.14.0
       tslib: 2.8.1
     dev: true
 
@@ -1216,13 +1216,13 @@ packages:
     resolution: {integrity: sha512-kRVpIl4vVGJ4baogMDINbyrIOtOxqhkZQg4jTq3l8Lw6WSk0xfpEYzezFu+Kl4ve4fbPl79dvwRtaFqAC/ucCw==}
     dev: true
 
-  /@firebase/app@0.14.1:
-    resolution: {integrity: sha512-jxTrDbxnGoX7cGz7aP9E7v9iKvBbQfZ8Gz4TH3SfrrkcyIojJM3+hJnlbGnGxHrABts844AxRcg00arMZEyA6Q==}
+  /@firebase/app@0.14.9:
+    resolution: {integrity: sha512-3gtUX0e584MYkKBQMgSECMvE1Dwzg+eONefDQ0wxVSe5YMBsZwdN5pL7UapwWBlV8+i8QCztF9TP947tEjZAGA==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/component': 0.7.0
+      '@firebase/component': 0.7.1
       '@firebase/logger': 0.5.0
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.14.0
       idb: 7.1.1
       tslib: 2.8.1
     dev: true
@@ -1295,20 +1295,20 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@firebase/component@0.7.0:
-    resolution: {integrity: sha512-wR9En2A+WESUHexjmRHkqtaVH94WLNKt6rmeqZhSLBybg4Wyf0Umk04SZsS6sBq4102ZsDBFwoqMqJYj2IoDSg==}
+  /@firebase/component@0.7.1:
+    resolution: {integrity: sha512-mFzsm7CLHR60o08S23iLUY8m/i6kLpOK87wdEFPLhdlCahaxKmWOwSVGiWoENYSmFJJoDhrR3gKSCxz7ENdIww==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.14.0
       tslib: 2.8.1
     dev: true
 
-  /@firebase/database-compat@0.1.8(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3):
+  /@firebase/database-compat@0.1.8(@firebase/app-compat@0.5.9)(@firebase/app-types@0.9.3):
     resolution: {integrity: sha512-dhXr5CSieBuKNdU96HgeewMQCT9EgOIkfF1GNy+iRrdl7BWLxmlKuvLfK319rmIytSs/vnCzcD9uqyxTeU/A3A==}
     peerDependencies:
       '@firebase/app-compat': 0.x
     dependencies:
-      '@firebase/app-compat': 0.5.1
+      '@firebase/app-compat': 0.5.9
       '@firebase/component': 0.5.13
       '@firebase/database': 0.12.8(@firebase/app-types@0.9.3)
       '@firebase/database-types': 0.9.7
@@ -1554,8 +1554,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@firebase/util@1.13.0:
-    resolution: {integrity: sha512-0AZUyYUfpMNcztR5l09izHwXkZpghLgCUaAGjtMwXnCg3bj4ml5VgiwqOMOxJ+Nw4qN/zJAaOQBcJ7KGkWStqQ==}
+  /@firebase/util@1.14.0:
+    resolution: {integrity: sha512-/gnejm7MKkVIXnSJGpc9L2CvvvzJvtDPeAEq5jAwgVlf/PeNxot+THx/bpD20wQ8uL5sz0xqgXy1nisOYMU+mw==}
     engines: {node: '>=20.0.0'}
     requiresBuild: true
     dependencies:
@@ -2870,7 +2870,7 @@ packages:
     resolution: {integrity: sha512-SgJpzkTgZKLKqQniCjLaE3c2L2sdL7UShvmTmPBejAKd2OKV/yfMpQ2IWpAuA+VY5wy7PkSUaEObIqEK6afFuw==}
     dependencies:
       fast-glob: 3.2.12
-      minimatch: 5.1.0
+      minimatch: 5.1.9
       mkdirp: 1.0.4
       path-browserify: 1.0.1
     dev: true
@@ -4438,6 +4438,7 @@ packages:
 
   /abbrev@1.1.1:
     resolution: {integrity: sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==}
+    requiresBuild: true
     dev: true
 
   /abort-controller@3.0.0:
@@ -8501,7 +8502,7 @@ packages:
   /filelist@1.0.4:
     resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==}
     dependencies:
-      minimatch: 5.1.0
+      minimatch: 5.1.9
     dev: true
 
   /fill-range@4.0.0:
@@ -8552,11 +8553,11 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-admin@9.12.0(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3):
+  /firebase-admin@9.12.0(@firebase/app-compat@0.5.9)(@firebase/app-types@0.9.3):
     resolution: {integrity: sha512-AtA7OH5RbIFGoc0gZOQgaYC6cdjdhZv4w3XgWoupkPKO1HY+0GzixOuXDa75kFeoVyhIyo4PkLg/GAC1dC1P6w==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      '@firebase/database-compat': 0.1.8(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3)
+      '@firebase/database-compat': 0.1.8(@firebase/app-compat@0.5.9)(@firebase/app-types@0.9.3)
       '@firebase/database-types': 0.7.3
       '@types/node': 14.18.29
       dicer: 0.3.1
@@ -8799,7 +8800,7 @@ packages:
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
-      nan: 2.23.0
+      nan: 2.25.0
     dev: true
     optional: true
 
@@ -9113,7 +9114,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       once: 1.4.0
       path-is-absolute: 1.0.1
     dev: true
@@ -9125,7 +9126,7 @@ packages:
       fs.realpath: 1.0.0
       inflight: 1.0.6
       inherits: 2.0.4
-      minimatch: 5.1.0
+      minimatch: 5.1.9
       once: 1.4.0
     dev: true
 
@@ -9871,7 +9872,7 @@ packages:
   /ignore-walk@3.0.4:
     resolution: {integrity: sha512-PY6Ii8o1jMRA1z4F2hRkH/xN59ox43DavKvD3oDpfurRlOJyAHpifIwpbdv1n4jt4ov0jSpw3kQ4GhJnpBL6WQ==}
     dependencies:
-      minimatch: 3.1.2
+      minimatch: 3.1.5
     dev: true
 
   /image-ssim@0.2.0:
@@ -10777,7 +10778,7 @@ packages:
       async: 3.2.4
       chalk: 4.1.2
       filelist: 1.0.4
-      minimatch: 3.1.2
+      minimatch: 3.1.5
     dev: true
 
   /jayson@2.1.2:
@@ -12018,6 +12019,10 @@ packages:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
     dev: true
 
+  /lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+    dev: true
+
   /log-ok@0.1.1:
     resolution: {integrity: sha512-cc8VrkS6C+9TFuYAwuHpshrcrGRAv7d0tUJ0GdM72ZBlKXtlgjUZF84O+OhQUdiVHoF7U/nVxwpjOdwUJ8d3Vg==}
     engines: {node: '>=0.10.0'}
@@ -12087,7 +12092,7 @@ packages:
       inflection: 1.13.4
       lodash: 4.17.21
       loopback-connector: 4.11.1
-      minimatch: 3.1.2
+      minimatch: 3.1.5
       qs: 6.11.0
       shortid: 2.2.16
       strong-globalize: 4.1.3
@@ -12914,14 +12919,14 @@ packages:
     resolution: {integrity: sha512-JIYlbt6g8i5jKfJ3xz7rF0LXmv2TkDxBLUkiBeZ7bAx4GnnNMr8xFpGnOxn6GhTEHx3SjRrZEoU+j04prX1ktg==}
     dev: true
 
-  /minimatch@3.1.2:
-    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+  /minimatch@3.1.5:
+    resolution: {integrity: sha512-VgjWUsnnT6n+NUk6eZq77zeFdpW2LWDzP6zFGrCbHXiYNul5Dzqk2HHQ5uFH2DNW5Xbp8+jVzaeNt94ssEEl4w==}
     dependencies:
       brace-expansion: 1.1.12
     dev: true
 
-  /minimatch@5.1.0:
-    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
+  /minimatch@5.1.9:
+    resolution: {integrity: sha512-7o1wEA2RyMP7Iu7GNba9vc0RWWGACJOCZBJX2GJWip0ikV+wcOsgVuY9uE8CPiyQhkGFSlhuSkZPavN7u1c2Fw==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.2
@@ -13311,6 +13316,12 @@ packages:
 
   /nan@2.23.0:
     resolution: {integrity: sha512-1UxuyYGdoQHcGg87Lkqm3FzefucTa0NAiOcuRsDmysep3c1LVCRK2krrUDafMWtjSG04htvAmvg96+SDknOmgQ==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /nan@2.25.0:
+    resolution: {integrity: sha512-0M90Ag7Xn5KMLLZ7zliPWP3rT90P6PN+IzVFS0VqmnPktBk3700xUVv8Ikm9EUaUE5SDWdp/BIxdENzVznpm1g==}
     requiresBuild: true
     dev: true
     optional: true
@@ -16352,7 +16363,7 @@ packages:
       '@rdfjs/to-ntriples': 1.0.2
       get-stream: 5.2.0
       jsonstream2: 3.0.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       nodeify-fetch: 2.2.2
       promise-the-world: 1.0.1
       rdf-transform-triple-to-quad: 1.0.2
@@ -17115,7 +17126,7 @@ packages:
     dependencies:
       '@istanbuljs/schema': 0.1.3
       glob: 7.2.3
-      minimatch: 3.1.2
+      minimatch: 3.1.5
     dev: true
 
   /text-encoding@0.6.4:
