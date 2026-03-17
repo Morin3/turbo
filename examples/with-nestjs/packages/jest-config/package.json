@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "jest": "^29.5.0",
-    "next": "^15.5.2"
+    "next": "^16.1.7"
   }
 }
