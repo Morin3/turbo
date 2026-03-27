@@ -150,7 +150,7 @@ devDependencies:
     version: 7.24.0
   firebase-admin:
     specifier: ^9.7.0
-    version: 9.12.0(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3)
+    version: 9.12.0(@firebase/app-compat@0.5.10)(@firebase/app-types@0.9.3)
   fluent-ffmpeg:
     specifier: ^2.1.2
     version: 2.1.2
@@ -1189,14 +1189,14 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@firebase/app-compat@0.5.1:
-    resolution: {integrity: sha512-BEy1L6Ufd85ZSP79HDIv0//T9p7d5Bepwy+2mKYkgdXBGKTbFm2e2KxyF1nq4zSQ6RRBxWi0IY0zFVmoBTZlUA==}
+  /@firebase/app-compat@0.5.10:
+    resolution: {integrity: sha512-tFmBuZL0/v1h6eyKRgWI58ucft6dEJmAi9nhPUXoAW4ZbPSTlnsh31AuEwUoRTz+wwRk9gmgss9GZV05ZM9Kug==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/app': 0.14.1
-      '@firebase/component': 0.7.0
+      '@firebase/app': 0.14.10
+      '@firebase/component': 0.7.2
       '@firebase/logger': 0.5.0
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.15.0
       tslib: 2.8.1
     dev: true
 
@@ -1216,13 +1216,13 @@ packages:
     resolution: {integrity: sha512-kRVpIl4vVGJ4baogMDINbyrIOtOxqhkZQg4jTq3l8Lw6WSk0xfpEYzezFu+Kl4ve4fbPl79dvwRtaFqAC/ucCw==}
     dev: true
 
-  /@firebase/app@0.14.1:
-    resolution: {integrity: sha512-jxTrDbxnGoX7cGz7aP9E7v9iKvBbQfZ8Gz4TH3SfrrkcyIojJM3+hJnlbGnGxHrABts844AxRcg00arMZEyA6Q==}
+  /@firebase/app@0.14.10:
+    resolution: {integrity: sha512-PlPhdtjgWUra+LImQTnXOUqUa/jcufZhizdR93ZjlQSS3ahCtDTG6pJw7j0OwFal18DQjICXfeVNsUUrcNisfA==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/component': 0.7.0
+      '@firebase/component': 0.7.2
       '@firebase/logger': 0.5.0
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.15.0
       idb: 7.1.1
       tslib: 2.8.1
     dev: true
@@ -1295,20 +1295,20 @@ packages:
       tslib: 2.4.0
     dev: true
 
-  /@firebase/component@0.7.0:
-    resolution: {integrity: sha512-wR9En2A+WESUHexjmRHkqtaVH94WLNKt6rmeqZhSLBybg4Wyf0Umk04SZsS6sBq4102ZsDBFwoqMqJYj2IoDSg==}
+  /@firebase/component@0.7.2:
+    resolution: {integrity: sha512-iyVDGc6Vjx7Rm0cAdccLH/NG6fADsgJak/XW9IA2lPf8AjIlsemOpFGKczYyPHxm4rnKdR8z6sK4+KEC7NwmEg==}
     engines: {node: '>=20.0.0'}
     dependencies:
-      '@firebase/util': 1.13.0
+      '@firebase/util': 1.15.0
       tslib: 2.8.1
     dev: true
 
-  /@firebase/database-compat@0.1.8(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3):
+  /@firebase/database-compat@0.1.8(@firebase/app-compat@0.5.10)(@firebase/app-types@0.9.3):
     resolution: {integrity: sha512-dhXr5CSieBuKNdU96HgeewMQCT9EgOIkfF1GNy+iRrdl7BWLxmlKuvLfK319rmIytSs/vnCzcD9uqyxTeU/A3A==}
     peerDependencies:
       '@firebase/app-compat': 0.x
     dependencies:
-      '@firebase/app-compat': 0.5.1
+      '@firebase/app-compat': 0.5.10
       '@firebase/component': 0.5.13
       '@firebase/database': 0.12.8(@firebase/app-types@0.9.3)
       '@firebase/database-types': 0.9.7
@@ -1554,8 +1554,8 @@ packages:
       tslib: 1.14.1
     dev: true
 
-  /@firebase/util@1.13.0:
-    resolution: {integrity: sha512-0AZUyYUfpMNcztR5l09izHwXkZpghLgCUaAGjtMwXnCg3bj4ml5VgiwqOMOxJ+Nw4qN/zJAaOQBcJ7KGkWStqQ==}
+  /@firebase/util@1.15.0:
+    resolution: {integrity: sha512-AmWf3cHAOMbrCPG4xdPKQaj5iHnyYfyLKZxwz+Xf55bqKbpAmcYifB4jQinT2W9XhDRHISOoPyBOariJpCG6FA==}
     engines: {node: '>=20.0.0'}
     requiresBuild: true
     dependencies:
@@ -4698,7 +4698,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       normalize-path: 3.0.0
-      picomatch: 2.3.1
+      picomatch: 2.3.2
     dev: true
 
   /apollo-cache-control@0.15.0(graphql@14.7.0):
@@ -8552,11 +8552,11 @@ packages:
       path-exists: 4.0.0
     dev: true
 
-  /firebase-admin@9.12.0(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3):
+  /firebase-admin@9.12.0(@firebase/app-compat@0.5.10)(@firebase/app-types@0.9.3):
     resolution: {integrity: sha512-AtA7OH5RbIFGoc0gZOQgaYC6cdjdhZv4w3XgWoupkPKO1HY+0GzixOuXDa75kFeoVyhIyo4PkLg/GAC1dC1P6w==}
     engines: {node: '>=10.13.0'}
     dependencies:
-      '@firebase/database-compat': 0.1.8(@firebase/app-compat@0.5.1)(@firebase/app-types@0.9.3)
+      '@firebase/database-compat': 0.1.8(@firebase/app-compat@0.5.10)(@firebase/app-types@0.9.3)
       '@firebase/database-types': 0.7.3
       '@types/node': 14.18.29
       dicer: 0.3.1
@@ -8799,7 +8799,7 @@ packages:
     requiresBuild: true
     dependencies:
       bindings: 1.5.0
-      nan: 2.23.0
+      nan: 2.26.2
     dev: true
     optional: true
 
@@ -11203,7 +11203,7 @@ packages:
       chalk: 4.1.2
       ci-info: 3.5.0
       graceful-fs: 4.2.10
-      picomatch: 2.3.1
+      picomatch: 2.3.2
     dev: true
 
   /jest-validate@27.5.1:
@@ -12016,6 +12016,10 @@ packages:
 
   /lodash@4.17.21:
     resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: true
+
+  /lodash@4.17.23:
+    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
     dev: true
 
   /log-ok@0.1.1:
@@ -12832,7 +12836,7 @@ packages:
     engines: {node: '>=8.6'}
     dependencies:
       braces: 3.0.2
-      picomatch: 2.3.1
+      picomatch: 2.3.2
     dev: true
 
   /miller-rabin@4.0.1:
@@ -13311,6 +13315,12 @@ packages:
 
   /nan@2.23.0:
     resolution: {integrity: sha512-1UxuyYGdoQHcGg87Lkqm3FzefucTa0NAiOcuRsDmysep3c1LVCRK2krrUDafMWtjSG04htvAmvg96+SDknOmgQ==}
+    requiresBuild: true
+    dev: true
+    optional: true
+
+  /nan@2.26.2:
+    resolution: {integrity: sha512-0tTvBTYkt3tdGw22nrAy50x7gpbGCCFH3AFcyS5WiUu7Eu4vWlri1woE6qHBSfy11vksDqkiwjOnlR7WV8G1Hw==}
     requiresBuild: true
     dev: true
     optional: true
@@ -14479,8 +14489,8 @@ packages:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==}
     dev: true
 
-  /picomatch@2.3.1:
-    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+  /picomatch@2.3.2:
+    resolution: {integrity: sha512-V7+vQEJ06Z+c5tSye8S+nHUfI51xoXIXjHQ99cQtKUkQqqO1kO/KCJUfZXuB47h/YBlDhah2H3hdUGXn8ie0oA==}
     engines: {node: '>=8.6'}
     dev: true
 
@@ -16352,7 +16362,7 @@ packages:
       '@rdfjs/to-ntriples': 1.0.2
       get-stream: 5.2.0
       jsonstream2: 3.0.0
-      lodash: 4.17.21
+      lodash: 4.17.23
       nodeify-fetch: 2.2.2
       promise-the-world: 1.0.1
       rdf-transform-triple-to-quad: 1.0.2
